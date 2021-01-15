@@ -1,0 +1,38 @@
+#board {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.rows > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+    border-left: 1px;
+    border-style: solid 1px;
+    margin-top: 0%;
+    margin-left: auto;
+}    
+ 
+.top {
+    border-bottom: 1px purple
+}
+
+.bottom {
+    border-top: 1px  green
+}
+
+.left {
+    border-right: 1px orangered
+}
+
+.right {
+    border-left: 1px  maroon
+}
+
+
